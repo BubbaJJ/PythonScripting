@@ -8,13 +8,13 @@ home = expanduser('~')
 
 def main():
     while True:
-        #if check_hour:
-        #    generate_names()
-        #time.sleep(3600)
+        if check_hour:
+            generate_names()
+        time.sleep(3600)
 
         # Devmode for testing
-        generate_names()
-        time.sleep(180)
+        # generate_names()
+        # time.sleep(180)
 
 
 if __name__ == '__main__':
