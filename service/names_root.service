@@ -1,0 +1,11 @@
+[Unit]
+Description=Service to generate a daily report of name days in Sweden.
+
+[Service]
+#Type=simple
+#Restart=always
+WorkingDirectory=/usr/bin/nameday
+ExecStart=/usr/bin/python3 /usr/bin/nameday/names.py
+
+[Install]
+WantedBy=multi-user.target
