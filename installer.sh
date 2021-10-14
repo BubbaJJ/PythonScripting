@@ -16,7 +16,7 @@ sudo cp service/names.service /lib/systemd/system/names.service
 cp utilities/api.py ~/nameday/utilities/api.py
 cp utilities/output.py ~/nameday/utilities/output.py
 cp utilities/generate.py ~/nameday/utilities/generate.py
-cp utilities/timechecker.py ~/nameday/utilities/timchecker.py
+cp utilities/timechecker.py ~/nameday/utilities/timechecker.py
 
 # Main files
 cp names.py ~/nameday/names.py
