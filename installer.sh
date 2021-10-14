@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Create directory in user home folder
-mkdir ~/nameday
+mkdir ~/nameday ~/nameday/service ~/nameday/scripts ~/nameday/utilities
 
 # Copy files to the created folder
 # Scripts
