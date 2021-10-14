@@ -1,7 +1,10 @@
 #!/bin/bash
 
 # Create directory in user home folder
-mkdir ~/nameday ~/nameday/service ~/nameday/scripts ~/nameday/utilities
+mkdir ~/nameday 
+mkdir ~/nameday/service 
+mkdir ~/nameday/scripts 
+mkdir ~/nameday/utilities
 
 # Copy files to the created folder
 # Scripts
@@ -21,7 +24,7 @@ cp utilities/timechecker.py ~/nameday/utilities/timechecker.py
 # Main files
 cp names.py ~/nameday/names.py
 cp installer.sh ~/nameday/installer.sh
-cp namedays.txt ~/nameday/names.txt
+cp names.txt ~/nameday/names.txt
 cp uninstaller.sh ~/nameday/uninstaller.sh
 
 # Make executable
